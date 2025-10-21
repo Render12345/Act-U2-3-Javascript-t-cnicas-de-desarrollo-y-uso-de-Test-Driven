@@ -3,9 +3,7 @@ document.addEventListener('DOMContentLoaded',function(){
     const title = document.getElementById('title');     
     const description = document.getElementById('description'); 
     const table = document.getElementById('table'); 
-    const alert = document.getElementById('alert');    
-
-    btn.onclick=addTodo;
+    const alert = document.getElementById('alert');
     
     //verificar con consola
     //btn.onclick=function(){
@@ -33,10 +31,10 @@ document.addEventListener('DOMContentLoaded',function(){
             <td>${description.value}</td>
             <td class="text-center">
                 <input type="checkbox">
-              </td>
-              <td class="text-right">
+            </td>
+            <td class="text-right">
                 <button class="btn btn-primary mb-1">
-                  <i class="fa fa-pencil"></i>
+                    <i class="fa fa-pencil"></i>
                 </button>
             </td>
         `;
@@ -53,7 +51,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
     }
 
-
+    btn.onclick=addTodo;
 });
 
 
